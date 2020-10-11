@@ -1,0 +1,31 @@
+{
+  "name": "dilli-jobs-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/styles": "latest",
+    "@zeit/next-css": "latest",
+    "axios": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "js-cookie": "latest",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-devtools-extension": "latest",
+    "redux-logger": "latest",
+    "redux-thunk": "latest"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
+  }
+}
